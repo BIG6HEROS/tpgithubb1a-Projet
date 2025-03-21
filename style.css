@@ -1,0 +1,140 @@
+/* Général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* En-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+/* Bannière */
+.banner {
+    background-color: #0066cc;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    font-size: 18px;
+}
+
+.banner .btn {
+    background-color: #ff9900;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.banner .btn:hover {
+    background-color: #e68900;
+}
+
+/* Section Produits */
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.product {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.product h3 {
+    margin: 15px 0;
+}
+
+.product .price {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.product .btn {
+    background-color: #0066cc;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.product .btn:hover {
+    background-color: #004c99;
+}
+
+/* Section Contact */
+.contact {
+    background-color: #e6e6e6;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact form input, .contact form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact form button {
+    background-color: #ff9900;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact form button:hover {
+    background-color: #e68900;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
